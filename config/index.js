@@ -24,11 +24,11 @@ export const config = {
 
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts: true,
+    holidaytts: false,
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
@@ -60,7 +60,7 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "小户",
+      name: "h",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o7zOO6bCNwYaOCldHvWlyEB2MjaM",
       // 你想对他发送的模板消息的模板ID
